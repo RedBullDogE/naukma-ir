@@ -4,7 +4,7 @@ from pathlib import Path
 
 from nltk.tokenize import word_tokenize
 
-from helpers import CollectionException, get_collection_paths
+from .helpers import CollectionException, get_collection_paths
 
 DATA_DIR = Path("./data")
 
